@@ -12,9 +12,8 @@ const useStyles = makeStyles((theme) => ({
         flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'center',
-        width: '100%',
+        width: '600px',
         border: '1px solid white',
-        padding: '10px',
     
         [theme.breakpoints.down('xs')]: {
           width: '100%',
