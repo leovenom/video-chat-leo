@@ -28,22 +28,7 @@
       "react-app/jest"
     ]
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
   "devDependencies": {
-    "envify": "^4.1.0",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "terser": "^5.9.0",
-    "uglifyify": "^5.0.2"
+    "eslint-plugin-react-hooks": "^4.2.0"
   }
 }
