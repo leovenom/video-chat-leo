@@ -18,17 +18,17 @@ const useStyles = makeStyles((theme) => ({
     },
     container: {
       width: '600px',
-      margin: '35px 0',
+      margin: '0px',
       padding: 0,
       [theme.breakpoints.down('xs')]: {
-        width: '80%',
+        width: '95%',
       },
     },
     margin: {
-      marginTop: 20,
+      marginTop: 10,
     },
     padding: {
-      padding: 20,
+      padding: 10,
     },
     paper: {
       padding: '10px 20px',
