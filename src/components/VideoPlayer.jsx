@@ -4,11 +4,9 @@ import { SocketContext } from '../SocketContext'
 
 const useStyles = makeStyles((theme) => ({
     video: {
-      width: '570px',
-      height: 'auto',
+      maxWidth: '570px',
       [theme.breakpoints.down('xs')]: {
         width: '100% !important',
-        height: 'auto',
       },
     },
     gridContainer: {
@@ -20,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
     paper: {
       padding: '10px',
       border: '1px solid white',
-      margin: '40px 10px',
+      margin: '0px 10px 30px 10px',
     },
   }));
 

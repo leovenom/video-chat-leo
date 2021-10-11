@@ -7,13 +7,15 @@ import Notifications from './components/Notifications';
 
 const useStyles = makeStyles((theme) => ({
     appBar: {
-        margin: '0px',
+        margin: '0',
         display: 'flex',
         flexDirection: 'row',
-        justifyContent: 'center',
+        justifyContent: 'left',
         alignItems: 'center',
         width: '100%',
-        padding: '8px',
+        padding: '6px',
+        color: 'white',
+        boxShadow:'none',
     
         [theme.breakpoints.down('xs')]: {
           width: '100%',
@@ -32,8 +34,8 @@ const App = () => {
 
     return (
         <div className={classes.wrapper}>
-            <AppBar className={classes.appBar} position="static" color="inherit">
-                <Typography variant="h5" align="left">Video Chat</Typography>
+            <AppBar className={classes.appBar} position="static" color="transparent">
+                <Typography variant="h6" style={{ marginLeft: '8px' }}>Video Chat</Typography>
             </AppBar>
             <VideoPlayer />
             <Options>
